@@ -1,0 +1,121 @@
+.footer__container {
+    max-width: 1170px;
+}
+.footer__topper {
+    padding: 12px 20px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #121212;
+    margin-bottom: 40px;
+}
+.footer__topper-title {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+.footer__form {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer__form-input {
+    padding: 7px 270px 7px 16px;
+    font-weight: 500;
+    font-size: 13px;
+    opacity: 0.6;
+    color: #FFFFFF;
+    margin-right: 12px;
+    background: #414141;
+    border: none;
+}
+.footer__form-input::placeholder {
+    color: #FFFFFF;
+}
+.footer__social {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer__social-link {
+    margin-right: 10px;
+}
+.footer__social-link--last {
+    margin-right: 0;
+}
+.footer__form-button {
+    padding: 7px 24px;
+    border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    opacity: 0.9;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 600;
+    font-size: 12px;
+    background: inherit;
+    cursor: pointer;
+}
+
+.footer__info {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+.footer__info__block {
+    width: 25%;
+}
+.footer__info-title {
+    font-weight: 600;
+    font-size: 12px;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    margin-bottom: 19px;
+}
+.footer__info-title--last {
+    margin-bottom: 18px;
+}
+.footer__info-link {
+    color: #121212;
+    opacity: 0.8;
+    font-size: 12px;
+    font-weight: normal;
+}
+.footer__info-link-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.footer__info__block li {
+    margin-bottom: 18px;
+}
+.footer__info-img {
+    margin-right: 10px;
+}
+.footer__info-link--line {
+    text-decoration: underline;
+}
+.footer__bottomer {
+    color: #121212;
+    opacity: 0.8;
+    font-weight: 500;
+    font-size: 11px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    background: #F8F8F8;
+    padding: 9px 15px;
+}
+.footer__bottomer-text {
+    color: #121212;
+    opacity: 0.8;
+    text-decoration-line: underline;
+    font-weight: 500;
+    font-size: 11px;
+}

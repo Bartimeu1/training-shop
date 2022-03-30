@@ -1,0 +1,24 @@
+.card {
+    margin: 0 15px 30px 15px;
+}
+.card-title {
+    font-weight: 400;
+    font-size: 14px;
+    color: #121212;
+    opacity: 0.6;
+    margin: 16px 0 12px 0;
+}
+.card-price {
+    font-weight: bold;
+    font-size: 14px;
+    color: #121212;
+}
+.card__info--bottom {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.card__info-star {
+    margin-right: 1px;
+}

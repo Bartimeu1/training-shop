@@ -1,0 +1,59 @@
+.blog {
+    margin-bottom: 149px;
+}
+.blog__topper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 48px;
+}
+.blog__topper-title {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    font-weight: 600;
+    font-size: 22px;
+}
+.blog__topper-button {
+    color: #121212;
+    opacity: 0.6;
+    letter-spacing: 0.06em;
+    font-weight: 500;
+    font-size: 12px;
+}
+.blog__cards {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+}
+.blog__card {
+    width: 31%;
+    height: 276px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.blog__card__inner {
+    background: #FFFFFF;
+    width: 77%;
+    padding: 24px 16px 0 16px;
+    margin-bottom: -53px;
+}
+.blog__card-title {
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: #121212;
+    font-weight: 600;
+    font-size: 14px;
+    margin-bottom: 12px;
+}
+.blog__card-text {
+    color: #121212;
+    opacity: 0.8;
+    font-size: 14px;
+    line-height: 22px;
+}

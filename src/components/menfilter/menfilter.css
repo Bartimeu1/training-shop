@@ -1,0 +1,42 @@
+.filter {
+    margin-bottom: 80px;
+}
+.filter__topper {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 37px;
+}
+.filter__left {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    cursor: pointer;
+}
+.filter__left-text {
+    color: #121212;
+    opacity: 0.6;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    font-weight: 500;
+    font-size: 13px;
+}
+.filter__left-img {
+    margin-right: 17px;
+}
+.filter__right {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+}
+.filter__right-img--first {
+    margin-right: 42px;
+}
+.filter__right-img {
+    cursor: pointer;
+}
+.filter__loading {
+    text-align: center;
+    margin-top: 40px;
+}
